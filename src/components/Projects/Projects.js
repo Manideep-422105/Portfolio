@@ -8,7 +8,8 @@ import sql from "../../Assets/Projects/download.png";
 import rhyno from "../../Assets/Projects/Rhynologo.png";
 import logo from "../../Assets/Projects/Icon.png";
 import react from "../../Assets/Projects/react.png";
-import summarizer from "../../Assets/Projects/download.jpeg"
+import time_capsule from "../../Assets/Projects/time capsule.png";
+import summarizer from "../../Assets/Projects/download.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -31,7 +32,16 @@ function Projects() {
               demoLink="https://study-notion-five-pearl.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={time_capsule}
+              isBlog={false}
+              title="Time Capsule"
+              description="AI-Enhanced Digital Memory Vault A full-stack serverless application that allows users to securely store and schedule the future release of messages, media, and music. Built with Next.js 16, TypeScript, and AWS DynamoDB, it features Google Gemini AI for content generation, Spotify integration for music, and Stripe for premium storage subscriptions."
+              ghLink="https://github.com/Manideep-422105/Time-Capsule"
+              demoLink="https://main.d3op2u4xh0uin.amplifyapp.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={logo}
@@ -86,7 +96,7 @@ function Projects() {
               title="React based Projects"
               description="A collection of various projects built using React.js, showcasing different functionalities and designs."
               ghLink="https://github.com/Manideep-422105/React_Projects"
-              // demoLink=""      
+              // demoLink=""
             />
           </Col>
 
@@ -97,7 +107,7 @@ function Projects() {
               title="AI-Meeting Notes Summarizer"
               description="React.js project that generates concise meeting notes with AI-powered summarization."
               ghLink="https://github.com/Manideep-422105/AI-Notes-Summarizer"
-              demoLink="https://ai-notes-summarizer-chi.vercel.app/"      
+              demoLink="https://ai-notes-summarizer-chi.vercel.app/"
             />
           </Col>
         </Row>
