@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -43,22 +45,30 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/manideep-48521828b/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://leetcode.com/u/manideep17072004/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <SiLeetcode />
               </a>
-            </li> */}
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:manideep17072004@gmail.com"
+                style={{ color: "white" }}
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
           </ul>
         </Col>
       </Row>

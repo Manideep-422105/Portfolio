@@ -11,9 +11,15 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Manideep Reddy </span>
             from <span className="purple"> Hyderabad, India.</span>
             <br></br>
-            I have currently enrolled in B.Tech in Computer Science at
+            I recently graduated with a B.Tech in Computer Science from
             <br></br>
-            NIT Andhra Pradesh.
+            <span className="purple">NIT Andhra Pradesh</span> (2022 – 2026).
+            <br />
+            <br />
+            Currently working as a <span className="purple">Full Stack Developer Intern </span>
+            at <span className="purple">Riverbed Technology</span>, Bangalore,
+            building features for DataExpress — a high-speed enterprise platform
+            for secure petabyte-scale data transfer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
